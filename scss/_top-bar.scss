@@ -1,0 +1,73 @@
+.top_bar{
+  width: 100%;
+  height: 30px;
+  background-color: $dark;
+  color: white;
+  .container{
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 0.9rem;
+    height: inherit;
+  }
+  .cgr_intro{
+    padding-left: 10px;
+    position: relative;
+    &::before{
+      display: inline-block;
+      content: "";
+      background-color: $red;
+      height: 5px;
+      width: 5px;
+      left: 0px;
+      top: calc(50% - 2.5px);
+      position: absolute;
+      @include border_radius(50%);
+    }
+  }
+  .date{
+    background-color: $dark * 1.7;
+    height: 25px;
+    padding: 0 10px;
+    margin: 2.5px 0;
+    color: white * 0.7;
+    line-height: 25px;
+    font-size: 0.7rem;
+    @include border_radius(5px);
+  }
+  .social_cont{
+    //padding-right: 20px;
+    a{
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      color: $white * 0.7;
+      &:nth-child(1):hover{
+        background-color: $twitter;
+        color: $white;
+      }
+      &:nth-child(2):hover{
+        background-color: $facebook;
+        color: $white;
+      }
+      &:nth-child(3):hover{
+        background-color: $youtube;
+        color: $white;
+      }
+      &:nth-child(4):hover{
+        background-color: $google;
+        color: $white;
+      }
+      &:nth-child(5):hover{
+        background-color: $rss;
+        color: $white;
+      }
+      &:last-child{
+        background-image:url(../images/nigeria-flag.jpg);
+        background-size: contain;
+      }
+    }
+  }
+}

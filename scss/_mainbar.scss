@@ -1,0 +1,39 @@
+.mainbar{
+  width: 74.75%;
+  display: inline-block;
+  margin-top: 30px;
+  float: right;
+  box-sizing: border-box;
+  .banner_cont{
+    width: 100%;
+    display: flex;
+    .banner_slider{
+      width: 66.67%;
+      background-color: grey;
+      height: 380px;
+      position: relative;
+      .star{
+        @extend .float_tag;
+        background-color: $red !important;
+        padding: 3px !important;
+        bottom: 50px !important;
+
+      }
+      .float_tag{
+        background-color: $blue;
+        padding: 5px;
+        color: $white;
+        display: inline-block;
+        margin-left: 20px;
+        font-size: 0.7rem;
+        position: absolute;
+        bottom: 20px;
+      }
+    }
+    .banner_side{
+      width: 33.33%;
+      background-color: $dark;
+      height: 380px
+    }
+  }
+}

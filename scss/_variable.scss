@@ -1,0 +1,16 @@
+$dark: #1d1e20;
+$white: #fff;
+$red: #e84a4a;
+$blue: #017ffc;
+$orange: #fc7e01;
+$facebook: #3C5B97;
+$twitter: #2BA7DF;
+$youtube: #BE1D19;
+$google: #ea614e;
+$rss: #F58821;
+$text_thin_grey: #8d9294;
+@mixin border_radius($e){
+  -webkit-border-radius: $e;
+  -moz-border-radius: $e;
+  border-radius: $e;
+}

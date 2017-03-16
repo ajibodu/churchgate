@@ -1,0 +1,26 @@
+@import "variable";
+@import "top-bar";
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: inherit;
+  //background-color: grey;
+}
+.clear{
+  content: "";
+  display: block;
+  clear: both;
+  float: none;
+}
+@import "radio";
+@import "menu";
+@import "sidebar";
+@import "mainbar";

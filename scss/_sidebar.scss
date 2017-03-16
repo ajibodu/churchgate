@@ -1,0 +1,102 @@
+.sidebar{
+  width: 24.25%;
+  display: inline-block;
+  margin-top: 30px;
+  height: 400px;
+  //background-color: grey;
+  box-sizing: border-box;
+  .latest_news{
+    padding: 0;
+    h3{
+      margin: 0;
+      padding: 0;
+      line-height: 30px;
+      color: $white;
+      font-weight: lighter;
+      display: inline-block;
+      &:last-child{
+        float: right;
+        padding-right: 20px;
+        span{
+          width: 7px;
+          height: 7px;
+          border: 0.5px solid $white;
+          display: inline-block;
+          margin-left: 5px;
+          color: red;
+          cursor: pointer;
+          @include border_radius(50%);
+          &:nth-child(2){
+            background-color: $white;
+          }
+        }
+      }
+    }
+    .head_cont{
+      width: 100%;
+      height: 30px;
+      box-sizing: border-box;
+      padding-left: 20px;
+      background-color: $blue;
+      position: relative;
+      margin-bottom: 10px;
+      &::before{
+        content: "";
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid $blue;
+        border-bottom: 7px solid transparent;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+      }
+    }
+    .latest_post{
+      padding: 10px 0;
+      display: flex;
+      height: 70px;
+      border-bottom: 0.5px solid $text_thin_grey * 1.5;
+      .image{
+        width: 25%;
+        height: 100%;
+        background-color: grey;
+      }
+      .text_cont{
+        flex-grow: 1;
+        max-width: 70%;
+        height: 100%;
+        //background-color: beige;
+        .text{
+          box-sizing: border-box;
+          color: $text_thin_grey;
+          height: 70%;
+          width: 100%;
+          padding: 10px;
+          a{
+            text-decoration: none;
+            color: inherit;
+            &:hover{
+              color: $orange;
+            }
+          }
+        }
+        .post_day_star{
+          height: 30%;
+          width: 100%;
+          padding: 0 10px;
+          font-size: 0.7rem;
+          .post_day{
+            color: $text_thin_grey * 1.2;
+          }
+          .star{
+            color: $white;
+            background-color: $red;
+            display: inline-block;
+            padding: 3px;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}
