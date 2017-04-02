@@ -9,8 +9,3 @@ $youtube: #BE1D19;
 $google: #ea614e;
 $rss: #F58821;
 $text_thin_grey: #8d9294;
-@mixin border_radius($e){
-  -webkit-border-radius: $e;
-  -moz-border-radius: $e;
-  border-radius: $e;
-}

@@ -1,4 +1,6 @@
 @import "variable";
+@import "extend";
+@import "mixins";
 @import "top-bar";
 body{
   margin: 0;
@@ -14,13 +16,10 @@ body{
   height: inherit;
   //background-color: grey;
 }
-.clear{
-  content: "";
-  display: block;
-  clear: both;
-  float: none;
-}
 @import "radio";
 @import "menu";
 @import "sidebar";
 @import "mainbar";
+@import "mainbar_articles";
+@import "footer";
+@import "post_article";

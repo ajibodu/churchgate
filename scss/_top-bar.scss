@@ -2,6 +2,7 @@
   width: 100%;
   height: 30px;
   background-color: $dark;
+  font-family: 'Roboto', sans-serif;
   color: white;
   .container{
     background-color: inherit;
@@ -36,38 +37,46 @@
     font-size: 0.7rem;
     @include border_radius(5px);
   }
-  .social_cont{
-    //padding-right: 20px;
-    a{
-      display: inline-block;
+}
+.social_cont{
+  padding-right: 20px;
+  a{
+    display: inline-block;
+    width: 30px;
+    //height: 30px;
+    text-align: center;
+    color: $white * 0.7;
+    line-height: 30px;
+    &:nth-child(1):hover{
+      background-color: $twitter;
+      color: $white;
+    }
+    &:nth-child(2):hover{
+      background-color: $facebook;
+      color: $white;
+    }
+    &:nth-child(3):hover{
+      background-color: $youtube;
+      color: $white;
+    }
+    &:nth-child(4):hover{
+      background-color: $google;
+      color: $white;
+    }
+    &:nth-child(5):hover{
+      background-color: $rss;
+      color: $white;
+    }
+    .flag{
       width: 30px;
-      height: 30px;
-      text-align: center;
-      color: $white * 0.7;
-      &:nth-child(1):hover{
-        background-color: $twitter;
-        color: $white;
-      }
-      &:nth-child(2):hover{
-        background-color: $facebook;
-        color: $white;
-      }
-      &:nth-child(3):hover{
-        background-color: $youtube;
-        color: $white;
-      }
-      &:nth-child(4):hover{
-        background-color: $google;
-        color: $white;
-      }
-      &:nth-child(5):hover{
-        background-color: $rss;
-        color: $white;
-      }
-      &:last-child{
-        background-image:url(../images/nigeria-flag.jpg);
-        background-size: contain;
-      }
+      height: 100%;
+      color: transparent;
+      font-size: 1.2em;
+      box-sizing: border-box;
+      display: block;
+      background-image:url(../images/nigeria-flag.jpg);
+      background-size: contain;
+
     }
   }
 }

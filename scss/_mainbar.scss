@@ -20,12 +20,12 @@
 
       }
       .float_tag{
-        background-color: $blue;
+        background-color: $blue * 1.5;
         padding: 5px;
         color: $white;
         display: inline-block;
         margin-left: 20px;
-        font-size: 0.7rem;
+        font-size: 0.7em;
         position: absolute;
         bottom: 20px;
       }
@@ -33,7 +33,57 @@
     .banner_side{
       width: 33.33%;
       background-color: $dark;
-      height: 380px
+      height: 380px;
+      .side_content{
+        box-sizing: border-box;
+        width: 100%;
+        height: 33.33%;
+        color: $white * 0.8;
+        text-align: justify;
+        padding: 10px 20px;
+        position: relative;
+        border-bottom: 1px solid $dark * 0.3;
+        box-shadow: 0px 1px $dark * 1.5;
+        &:last-child{
+          border-bottom: none;
+          box-shadow: none;
+        }
+        &:hover{
+          background-color: $dark * 1.3;
+          &::before{
+            content: "";
+            display: block;
+            border-left: 9px solid transparent;
+            border-top: 9px solid transparent;
+            border-bottom: 9px solid transparent;
+            border-right: 9px solid $dark;
+            position: absolute;
+            left: -6%;
+            top: 25%;
+            z-index: 5558;
+          }
+        }
+        a{
+          text-decoration: none;
+          color: inherit;
+        }
+        &:hover span:first-child{
+            color: $orange;
+        }
+        span:first-child{
+          display: inline-block;
+          font-weight: bold;
+          width: 100%;
+          padding: 10px 0;
+        }
+        span:last-child{
+          display: inline-block;
+          width: 100%;
+          line-height: 1.7;
+          font-weight: 70;
+          color: $text_thin_grey * 0.9 ;
+        }
+      }
     }
   }
 }

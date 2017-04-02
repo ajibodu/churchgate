@@ -1,0 +1,1328 @@
+/* line 1, C:/xampp/htdocs/churchgate/scss/_extend.scss */
+.clear {
+  content: "";
+  display: block;
+  clear: both;
+  float: none;
+}
+
+/* line 1, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.top_bar {
+  width: 100%;
+  height: 30px;
+  background-color: #1d1e20;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+/* line 7, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.top_bar .container {
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  font-size: 0.9rem;
+  height: inherit;
+}
+
+/* line 15, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.top_bar .cgr_intro {
+  padding-left: 10px;
+  position: relative;
+}
+
+/* line 18, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.top_bar .cgr_intro::before {
+  display: inline-block;
+  content: "";
+  background-color: #e84a4a;
+  height: 5px;
+  width: 5px;
+  left: 0px;
+  top: calc(50% - 2.5px);
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 30, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.top_bar .date {
+  background-color: #313336;
+  height: 25px;
+  padding: 0 10px;
+  margin: 2.5px 0;
+  color: #b3b3b3;
+  line-height: 25px;
+  font-size: 0.7rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 41, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.social_cont {
+  padding-right: 20px;
+}
+
+/* line 43, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.social_cont a {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #b3b3b3;
+  line-height: 30px;
+}
+
+/* line 50, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.social_cont a:nth-child(1):hover {
+  background-color: #2BA7DF;
+  color: #fff;
+}
+
+/* line 54, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.social_cont a:nth-child(2):hover {
+  background-color: #3C5B97;
+  color: #fff;
+}
+
+/* line 58, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.social_cont a:nth-child(3):hover {
+  background-color: #BE1D19;
+  color: #fff;
+}
+
+/* line 62, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.social_cont a:nth-child(4):hover {
+  background-color: #ea614e;
+  color: #fff;
+}
+
+/* line 66, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.social_cont a:nth-child(5):hover {
+  background-color: #F58821;
+  color: #fff;
+}
+
+/* line 70, C:/xampp/htdocs/churchgate/scss/_top-bar.scss */
+.social_cont a .flag {
+  width: 30px;
+  height: 100%;
+  color: transparent;
+  font-size: 1.2em;
+  box-sizing: border-box;
+  display: block;
+  background-image: url(../images/nigeria-flag.jpg);
+  background-size: contain;
+}
+
+/* line 5, C:/xampp/htdocs/churchgate/scss/index.scss */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 12, C:/xampp/htdocs/churchgate/scss/index.scss */
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: inherit;
+}
+
+/* line 1, C:/xampp/htdocs/churchgate/scss/_radio.scss */
+.radio_cont {
+  height: 120px;
+  width: 100%;
+}
+
+/* line 1, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont {
+  width: 100%;
+  height: 40px;
+  background-color: #1d1e20;
+  border-bottom: 2px solid #e84a4a;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 7, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 10, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:first-child {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:first-child li {
+  display: inline-block;
+  line-height: 40px;
+}
+
+/* line 17, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:first-child li:first-child, .menu_cont .container ul:first-child li:hover {
+  background-color: #017ffc;
+}
+
+/* line 21, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:first-child li a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+/* line 29, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:last-child {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 32, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:last-child li {
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 40px;
+  position: relative;
+  background-color: #313336;
+}
+
+/* line 38, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:last-child li::before {
+  content: "";
+  left: calc(100% - 60px);
+  top: 30%;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #e84a4a;
+}
+
+/* line 48, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:last-child li input[type="text"] {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-color: transparent;
+  display: inline-block;
+  padding: 0px 45px 0px 5px;
+  width: 200px;
+  height: 20px;
+}
+
+/* line 56, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:last-child li .submit {
+  position: absolute;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #e84a4a;
+  border-color: #e84a4a;
+  top: 8.25px;
+  right: 10px;
+  width: 40px;
+  height: 24px;
+}
+
+/* line 66, C:/xampp/htdocs/churchgate/scss/_menu.scss */
+.menu_cont .container ul:last-child li .submit i {
+  display: block;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+/* line 1, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.sidebar {
+  width: 24.25%;
+  display: inline-block;
+  margin-top: 30px;
+  height: 400px;
+  box-sizing: border-box;
+}
+
+/* line 54, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post {
+  padding: 10px 0;
+  display: flex;
+  height: 90px;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid #d4dbde;
+}
+
+/* line 60, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post:last-child {
+  border-bottom: none;
+}
+
+/* line 63, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post .image {
+  width: 25%;
+  height: 100%;
+  background-color: grey;
+}
+
+/* line 68, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post .text_cont {
+  flex-grow: 1;
+  max-width: 70%;
+  height: 100%;
+}
+
+/* line 73, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post .text_cont .text {
+  box-sizing: border-box;
+  color: #8d9294;
+  width: 100%;
+  display: inline-block !important;
+  padding: 10px 0 0 10px;
+}
+
+/* line 79, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post .text_cont .text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 82, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post .text_cont .text a:hover {
+  color: #fc7e01;
+}
+
+/* line 87, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post .text_cont .post_day_star {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 0.7em;
+}
+
+/* line 93, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post .text_cont .post_day_star .post_day {
+  color: #a9afb2;
+  display: inline-block;
+}
+
+/* line 97, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.latest_post .text_cont .post_day_star .star {
+  color: #fff;
+  background-color: #e84a4a;
+  display: inline-block;
+  padding: 3px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+/* line 2, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.head_cont {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: #017ffc;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* line 10, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.head_cont h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  color: #fff;
+  font-weight: lighter;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+/* line 18, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.head_cont h3:last-child {
+  float: right;
+  padding-right: 20px;
+}
+
+/* line 21, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.head_cont h3:last-child span {
+  width: 7px;
+  height: 7px;
+  border: 0.5px solid #fff;
+  display: inline-block;
+  margin-left: 5px;
+  color: red;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 30, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.head_cont h3:last-child span:nth-child(2) {
+  background-color: #fff;
+}
+
+/* line 37, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.head_cont:before {
+  content: "";
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #017ffc;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+/* line 11, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news {
+  padding: 0;
+}
+
+/* line 14, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont .head_cont {
+  background-color: #1d1e20;
+}
+
+/* line 16, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont .head_cont::before {
+  border-top-color: #1d1e20;
+}
+
+/* line 20, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont center {
+  padding: 20px;
+  color: #1d1e20;
+  font-size: 1.2em;
+}
+
+/* line 26, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont input:hover, .latest_news .poll_cont label:hover {
+  cursor: pointer;
+  color: #fc7e01;
+}
+
+/* line 31, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont input[type="radio"] {
+  margin: 5px 20px;
+  display: inline-block;
+  border-color: red;
+}
+
+/* line 35, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont input[type="radio"]:checked + label {
+  color: #e84a4a;
+  font-weight: bold;
+}
+
+/* line 40, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont .submit_line {
+  padding: 20px;
+}
+
+/* line 42, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont .submit_line span {
+  display: inline-block;
+  background-color: #e84a4a;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+/* line 48, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont .submit_line span:hover {
+  box-shadow: 1px 2px 5px #1d1e20;
+}
+
+/* line 51, C:/xampp/htdocs/churchgate/scss/_sidebar.scss */
+.latest_news .poll_cont .submit_line span:active {
+  box-shadow: 0px 1px 3px #1d1e20;
+}
+
+/* line 1, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar {
+  width: 74.75%;
+  display: inline-block;
+  margin-top: 30px;
+  float: right;
+  box-sizing: border-box;
+}
+
+/* line 7, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont {
+  width: 100%;
+  display: flex;
+}
+
+/* line 10, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_slider {
+  width: 66.67%;
+  background-color: grey;
+  height: 380px;
+  position: relative;
+}
+
+/* line 15, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_slider .star {
+  background-color: #e84a4a !important;
+  padding: 3px !important;
+  bottom: 50px !important;
+}
+
+/* line 22, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_slider .float_tag, .mainbar .banner_cont .banner_slider .star {
+  background-color: #02bfff;
+  padding: 5px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 0.7em;
+  position: absolute;
+  bottom: 20px;
+}
+
+/* line 33, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_side {
+  width: 33.33%;
+  background-color: #1d1e20;
+  height: 380px;
+}
+
+/* line 37, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_side .side_content {
+  box-sizing: border-box;
+  width: 100%;
+  height: 33.33%;
+  color: #cccccc;
+  text-align: justify;
+  padding: 10px 20px;
+  position: relative;
+  border-bottom: 1px solid #09090a;
+  box-shadow: 0px 1px #2c2d30;
+}
+
+/* line 47, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_side .side_content:last-child {
+  border-bottom: none;
+  box-shadow: none;
+}
+
+/* line 51, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_side .side_content:hover {
+  background-color: #26272a;
+}
+
+/* line 53, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_side .side_content:hover::before {
+  content: "";
+  display: block;
+  border-left: 9px solid transparent;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-right: 9px solid #1d1e20;
+  position: absolute;
+  left: -6%;
+  top: 25%;
+  z-index: 5558;
+}
+
+/* line 66, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_side .side_content a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 70, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_side .side_content:hover span:first-child {
+  color: #fc7e01;
+}
+
+/* line 73, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_side .side_content span:first-child {
+  display: inline-block;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* line 79, C:/xampp/htdocs/churchgate/scss/_mainbar.scss */
+.mainbar .banner_cont .banner_side .side_content span:last-child {
+  display: inline-block;
+  width: 100%;
+  line-height: 1.7;
+  font-weight: 70;
+  color: #7f8385;
+}
+
+/* line 1, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.mainbar_article {
+  display: flex;
+}
+
+/* line 5, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.popular_tags span {
+  display: inline-block;
+  padding: 7px;
+  background-color: #1d1e20;
+  color: #fff;
+  margin-top: 3px;
+  font-size: 0.8em;
+}
+
+/* line 12, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.popular_tags span:hover {
+  background-color: #e84a4a;
+}
+
+/* line 17, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.widget_cont {
+  width: 32.44%;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 1.34%;
+}
+
+/* line 2, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.widget_cont .head_cont {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: #1d1e20;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* line 10, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.widget_cont .head_cont h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  color: #fff;
+  font-weight: lighter;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+/* line 18, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.widget_cont .head_cont h3:last-child {
+  float: right;
+  padding-right: 20px;
+}
+
+/* line 21, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.widget_cont .head_cont h3:last-child span {
+  width: 7px;
+  height: 7px;
+  border: 0.5px solid #fff;
+  display: inline-block;
+  margin-left: 5px;
+  color: red;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 30, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.widget_cont .head_cont h3:last-child span:nth-child(2) {
+  background-color: #fff;
+}
+
+/* line 37, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.widget_cont .head_cont:before {
+  content: "";
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #1d1e20;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+/* line 24, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.widget_cont .widget_body {
+  background-color: grey;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* line 28, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.widget_cont .widget_body .img_cont {
+  width: 100%;
+  height: 170px;
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #404040;
+}
+
+/* line 34, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.widget_cont .widget_body .img_cont:nth-child(even) span {
+  background-color: #e84a4a;
+}
+
+/* line 37, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.widget_cont .widget_body .img_cont span {
+  position: absolute;
+  display: inline-block;
+  background-color: #02bfff;
+  padding: 5px;
+  color: #fff;
+  font-size: 0.7em;
+  bottom: 25%;
+  left: 20px;
+  text-transform: capitalize;
+}
+
+/* line 48, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.widget_cont .widget_body .img_cont .img_details {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 25%;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-weight: lighter;
+  background-color: #1d1e20;
+  color: #fff;
+  padding: 0 20px;
+  font-size: 0.8em;
+  opacity: 0.4;
+}
+
+/* line 63, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.widget_cont .widget_body .img_cont:hover .img_details {
+  opacity: 0.7;
+  padding: 5px 20px;
+  transition: all 0.20s ease-in;
+}
+
+/* line 74, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont {
+  width: 66.22%;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+/* line 79, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .content {
+  margin-bottom: 20px;
+}
+
+/* line 2, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .content .head_cont {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: #017ffc;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* line 10, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .content .head_cont h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  color: #fff;
+  font-weight: lighter;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+/* line 18, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .content .head_cont h3:last-child {
+  float: right;
+  padding-right: 20px;
+}
+
+/* line 21, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .content .head_cont h3:last-child span {
+  width: 7px;
+  height: 7px;
+  border: 0.5px solid #fff;
+  display: inline-block;
+  margin-left: 5px;
+  color: red;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 30, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .content .head_cont h3:last-child span:nth-child(2) {
+  background-color: #fff;
+}
+
+/* line 37, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .content .head_cont:before {
+  content: "";
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #017ffc;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+/* line 82, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .content .head_cont h3:last-child {
+  float: none;
+}
+
+/* line 86, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .post_left_cont, .post_cont .post_right_cont {
+  width: 48.99%;
+  margin-top: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* line 91, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .post_left_cont img, .post_cont .post_right_cont img {
+  background-color: #404040;
+  width: 100%;
+  height: 180px;
+}
+
+/* line 110, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_left_cont .force_child, .post_cont .post_right_cont .force_child {
+  margin-bottom: 5px;
+  font-size: 0.8em;
+  color: #fc7e01;
+}
+
+/* line 115, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_left_cont .force_span, .post_cont .post_right_cont .force_span {
+  margin: 0;
+}
+
+/* line 117, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_left_cont .force_span a, .post_cont .post_right_cont .force_span a {
+  text-decoration: none;
+}
+
+/* line 119, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_left_cont .force_span a:hover h2, .post_cont .post_right_cont .force_span a:hover h2 {
+  color: #fc7e01;
+}
+
+/* line 123, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_left_cont .force_span h2, .post_cont .post_right_cont .force_span h2 {
+  color: #555859;
+  font-weight: 300;
+  margin-bottom: 5px;
+  font-size: 1.4em;
+  text-transform: capitalize;
+}
+
+/* line 130, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_left_cont .force_span ~ span, .post_cont .post_right_cont .force_span ~ span {
+  display: block;
+}
+
+/* line 132, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_left_cont .force_span ~ span:last-child, .post_cont .post_right_cont .force_span ~ span:last-child {
+  font-size: 1em;
+  font-weight: lighter;
+  line-height: 1.5;
+  text-align: justify;
+  color: #8d9294;
+}
+
+/* line 98, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .post_right_cont {
+  float: right;
+  padding-bottom: 20px;
+}
+
+/* line 54, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post {
+  padding: 10px 0;
+  display: flex;
+  height: 90px;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid #d4dbde;
+}
+
+/* line 60, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post:last-child {
+  border-bottom: none;
+}
+
+/* line 63, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post .image {
+  width: 25%;
+  height: 100%;
+  background-color: grey;
+}
+
+/* line 68, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post .text_cont {
+  flex-grow: 1;
+  max-width: 70%;
+  height: 100%;
+}
+
+/* line 73, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post .text_cont .text {
+  box-sizing: border-box;
+  color: #8d9294;
+  width: 100%;
+  display: inline-block !important;
+  padding: 10px 0 0 10px;
+}
+
+/* line 79, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post .text_cont .text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 82, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post .text_cont .text a:hover {
+  color: #fc7e01;
+}
+
+/* line 87, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post .text_cont .post_day_star {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 0.7em;
+}
+
+/* line 93, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post .text_cont .post_day_star .post_day {
+  color: #a9afb2;
+  display: inline-block;
+}
+
+/* line 97, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+.post_cont .post_right_cont .latest_post .text_cont .post_day_star .star {
+  color: #fff;
+  background-color: #e84a4a;
+  display: inline-block;
+  padding: 3px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+/* line 104, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .post_right_cont span {
+  display: block;
+}
+
+/* line 106, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .post_right_cont span a {
+  text-decoration: none;
+}
+
+/* line 108, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .post_right_cont span a:hover h2 {
+  color: #e37101;
+}
+
+/* line 112, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .post_right_cont span h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #fc7e01;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+/* line 119, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .post_right_cont span:nth-child(2) {
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  color: #fc7e01;
+}
+
+/* line 124, C:/xampp/htdocs/churchgate/scss/_mainbar_articles.scss */
+.post_cont .post_right_cont span:last-child {
+  font-size: 1em;
+  font-weight: lighter;
+  line-height: 1.5;
+  text-align: justify;
+  color: #8d9294;
+}
+
+/* line 1, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer {
+  width: 100%;
+  background-color: #1d1e20;
+  border-top: 2px solid #e84a4a;
+  padding-top: 50px;
+}
+
+/* line 6, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .container {
+  display: flex;
+}
+
+/* line 9, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .about, footer .newsletter {
+  width: 24.25%;
+  box-sizing: border-box;
+  margin-right: 1%;
+  color: #8d9294;
+  font-size: 0.9em;
+}
+
+/* line 17, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .map {
+  width: 49.5%;
+  box-sizing: border-box;
+}
+
+/* line 22, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .newsletter {
+  margin-left: 1%;
+  margin-right: 0 !important;
+}
+
+/* line 2, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+footer .newsletter .head_cont {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: #404040;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* line 10, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+footer .newsletter .head_cont h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  color: #fff;
+  font-weight: lighter;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+/* line 18, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+footer .newsletter .head_cont h3:last-child {
+  float: right;
+  padding-right: 20px;
+}
+
+/* line 21, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+footer .newsletter .head_cont h3:last-child span {
+  width: 7px;
+  height: 7px;
+  border: 0.5px solid #fff;
+  display: inline-block;
+  margin-left: 5px;
+  color: red;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 30, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+footer .newsletter .head_cont h3:last-child span:nth-child(2) {
+  background-color: #fff;
+}
+
+/* line 37, C:/xampp/htdocs/churchgate/scss/_mixins.scss */
+footer .newsletter .head_cont:before {
+  content: "";
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #404040;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+/* line 27, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .newsletter form {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* line 33, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .newsletter form input[type="text"] {
+  width: 80%;
+  height: 30px;
+  border: none;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin-right: 5px;
+  color: #47494a;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 43, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .newsletter form input[type="submit"] {
+  width: 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fc7e01;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 49, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .newsletter form input[type="submit"]:hover {
+  background-color: #ca6501;
+}
+
+/* line 53, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .newsletter form label {
+  position: absolute;
+  line-height: 30px;
+  color: #fff;
+  font-size: 1.2em;
+  left: calc(80% + 15px);
+  cursor: pointer;
+}
+
+/* line 63, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .developer {
+  border-top: 1px solid #141516;
+  box-shadow: 0 -1px 0px #232426;
+  margin-top: 30px;
+}
+
+/* line 67, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .developer .container {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 71, C:/xampp/htdocs/churchgate/scss/_footer.scss */
+footer .developer .container span {
+  line-height: 40px;
+  text-shadow: 0 -1px 5px #232426;
+  color: #383a3b;
+  font-size: 0.8em;
+}
+
+/* line 2, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.post_article h1 {
+  margin-bottom: 10px;
+}
+
+/* line 5, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.post_article h1 a {
+  text-decoration: none;
+  color: #555859;
+}
+
+/* line 9, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.post_article span {
+  color: #fc7e01;
+}
+
+/* line 12, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.post_article p {
+  color: #555859;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+/* line 18, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.post_article .post_img2 {
+  display: inline-block;
+  width: 48%;
+  margin: 20px 0.5%;
+  height: 300px;
+  background-color: grey;
+  position: relative;
+}
+
+/* line 26, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.post_article .post_img2_title {
+  position: absolute;
+  top: 97%;
+}
+
+/* line 32, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center a {
+  text-decoration: none;
+}
+
+/* line 36, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center .head_cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 40, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center h3 span {
+  margin: 0 20px;
+}
+
+/* line 42, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center h3 span a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 47, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center {
+  width: 70%;
+  display: inline-block;
+}
+
+/* line 50, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center .comment {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #c5cccf;
+}
+
+/* line 57, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center .dp_image {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 10%;
+  height: 70px;
+  background-color: grey;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 65, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center .dp_comment {
+  width: 88%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* line 69, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center .dp_comment h3 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  color: #fc7e01;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+/* line 77, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center .dp_comment p {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+/* line 83, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center .dp_comment .face_buzz {
+  color: #8d9294;
+  border: 1px solid #8d9294;
+  padding: 3px;
+  font-size: 0.8em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 91, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center textarea {
+  width: 88%;
+  margin-left: 12%;
+  background-color: #f0f8fc;
+  border: 1px solid #b7bec0;
+  height: 40px;
+}
+
+/* line 99, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center input[type="submit"] {
+  float: right;
+  margin: 0;
+  width: 10%;
+  height: 30px;
+  background-color: #e84a4a;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* line 108, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center input[type="submit"]:hover {
+  box-shadow: 1px 1px 1px #8d9294;
+  cursor: pointer;
+}
+
+/* line 112, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+center center input[type="submit"]:active {
+  background-color: #fff;
+  color: #e84a4a;
+  border: 1px solid #e84a4a;
+}
+
+/* line 120, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.comment_reply {
+  border-top: 1px solid #c5cccf;
+  margin-top: 20px;
+  padding-top: 20px;
+  display: none;
+}
+
+/* line 125, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.comment_reply .dp_image {
+  height: 50px;
+  float: left;
+}
+
+/* line 129, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.comment_reply .dp_comment {
+  width: 80%;
+}
+
+/* line 133, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.load_more {
+  display: block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #8d9294;
+  color: #8d9294 !important;
+  text-shadow: 1px 1px 1px #8d9294;
+  padding: 10px;
+  margin: 50px auto;
+  background-color: #e2eaed;
+  box-shadow: 1px 1px 1px #a9afb2;
+}
+
+/* line 143, C:/xampp/htdocs/churchgate/scss/_post_article.scss */
+.load_more:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 3px #a9afb2;
+}
+
+/*# sourceMappingURL=../css/index.map */

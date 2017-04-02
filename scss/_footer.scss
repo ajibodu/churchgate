@@ -1,0 +1,79 @@
+footer{
+  width: 100%;
+  background-color: $dark;
+  border-top: 2px solid $red;
+  padding-top: 50px;
+  .container{
+    display: flex;
+  }
+  .about{
+    width: 24.25%;
+    box-sizing: border-box;
+    margin-right: 1%;
+    //background-color: yellow;
+    color: $text_thin_grey;
+    font-size: 0.9em;
+  }
+  .map{
+    width: 49.5%;
+    box-sizing: border-box;
+  //  background-color: blue;
+  }
+  .newsletter{
+    @extend .about;
+    @include bar_top(#fff * 0.25);
+    margin-left: 1%;
+    margin-right: 0 !important;
+    form{
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      margin-bottom: 30px;
+      input[type="text"]{
+        width: 80%;
+        height: 30px;
+        border: none;
+        box-sizing: border-box;
+        padding: 5px 10px;
+        margin-right: 5px;
+        color: $text_thin_grey * 0.5;
+        @include border_radius(5px);
+      }
+      input[type="submit"]{
+        width: 40px;
+        @include border_radius(5px);
+        background-color: $orange;
+        border: none;
+        cursor: pointer;
+        &:hover{
+          background-color: $orange * 0.8;
+        }
+      }
+      label{
+        position: absolute;
+        line-height: 30px;
+        color: $white;
+        font-size: 1.2em;
+        left: calc(80% + 15px);
+        cursor: pointer;
+      }
+    }
+  }
+  .developer{
+    border-top: 1px solid $dark * 0.7;
+    box-shadow: 0 -1px 0px  $dark * 1.2 ;
+    margin-top: 30px;
+    .container{
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      span{
+        line-height: 40px;
+        text-shadow: 0 -1px 5px  $dark * 1.2;
+        color: $text_thin_grey * 0.4;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
