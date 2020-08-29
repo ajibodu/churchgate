@@ -14,7 +14,7 @@
   <?php
     include "includes/top_bar.php";
     include "includes/radio.php";
-    include "includes/menu.php";
+    include "includes/menu.php"; 
     ?>
   <div class="container">
     <div class="page_info">
